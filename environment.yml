@@ -1,0 +1,19 @@
+name: py3_10
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pytorch=2.2.2
+  - torchvision=0.16.1
+  - torchaudio=2.1.1
+  - pandas=2.3.3
+  - numpy=1.26.4
+  - matplotlib=3.10.3
+  - requests=2.32.3
+  - lxml=5.3.1
+  - seaborn
+  - pip:
+    - pandas-datareader==0.10.0
